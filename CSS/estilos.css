@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"PF Regal Display Pro";
+    font-style:normal;
+    ;
+}
+.uniqluxury{
+    display:block;
+    height: auto;
+    max-width: 100%;
+    padding:10px;
+    
+    
+}
+.tituloh1{
+    color: #000;
+    font-size:60px;
+    margin-bottom: 60px;
+}
+.tituloh2{
+    color:#DF991B;
+    font-size:30px;
+
+}
+header{
+    width:100%;
+    
+    background-color: #26282B;
+    background-size: cover;
+    background-attachment: fixed;
+    position:relative;
+    
+    margin: 0px;
+    background-image: url(IMG\mikail-mcverry-GSL3IuuwJv8-unsplash 1.png)
+    height: 450vh;
+    background-position: center;
+    backgroug-repeat:norepeat;
+    
+    /*display: grid;
+    grid-template-columns: repeat(12fr);
+    grid-template-rows: auto 1fr;*/   
+}
+
+header.textos_header{
+        
+    /*display: flex;
+    width: 490px;
+    height: 47px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;*/
+    color: #B4B7B7;
+
+    font-family: PF Regal Display Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; 
+     
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+    color: #FFF;
+    font-family: Brandon Grotesque;
+    font-size: 20px;
+    font-style: normal;
+}
+nav > a {
+    color:#fff;
+    font-weight:300;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+.contenedor{
+    padding:60px 0;
+    width:90%;
+    max-width: 1000px;
+    margin:auto;
+    overflow:hidden;
+}
+/*Galeria sales*/
+.galeria-properties-sales{
+    display:grid;
+    grid-template-columns: 1fr 2fr 2fr  5fr;
+    grid-template-rows: auto;
+    
+}
+.image-sales{
+    Width: 307px;
+    Height: 550px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position:relative;
+    cursor:pointer;
+    /*box-shadow: 0 0 6px 0 rgba(0,0, 0, -5)*/
+}
+.galeria-properties-sales.properties-sales-textright{
+    grid-colum:6;
+    /*display:grid;*/
+    grid-template-columns:auto;
+    width:450;
+}
+
+.properties-sales-textright h2{
+     margin-bottom: 15px;
+     text-align: right;
+
+} 
+.galeria-properties-sales.properties-sales-textright h1{
+/*.properties-sales-textright h1{*/
+    margin-bottom: 15px;
+    text-align: right;
+
+} 
+.properties-sales-textright image-prev{
+    width:100%;
+    height:100%;
+    display:inline-table;
+}
+                
+.hover-sales{
+   width:50px;
+
+}
+
+
+/*seccion developments*/
+.developments{
+    background: #fff;
+}
+.galeria_developments{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;*/
+    /*grid-template-rows: 262px 145px 262px 145px;*/
+    column-gap:1em;
+    row-gap: 1em;
+    
+}
+.image-developments{
+    width: 407;
+    margin-bottom: 10px;
+    height: 407px;
+
+    overflow: hidden;
+    position:relative;
+    cursor:pointer;
+    
+}
+.name-developments{
+ /*   height: 25px;*/
+    color: #464547;
+    font-family: PF Regal Display Pro;
+    font-size: 25px;
+    font-style: normal;
+    text-align: center;
+}
+.Ubication-name{
+    dislay:inline-grid;
+    font-family: PF Regal Display Pro;
+    padding: 5px;
+}
+
+/*.image-developments.name-developments{
+    height: 25px;
+    color: #464547;
+}*/
+
+
+
+/*.galeria-properties-sales{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-color: #f3b421;
+    padding: 10px;
+    column-gap: 10px
+    /*justify-content:space-evenly;
+    flex-wrap: wrap;
+ */
+/*.image-sales{
+    /*width:24%;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    Width: 407px;
+    Height: 550px;
+    /*Top:1204px;
+    Left:122px;
+
+    /*height:200px;
+    overflow:hidden;
+    position:relative;
+    cursor:pointer;
+    box-shadow: 0 0 6px 0;
+*/
+
+
